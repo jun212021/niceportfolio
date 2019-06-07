@@ -29,6 +29,7 @@ h1 {font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "
 }
 
 #mailchimp input {
+	width:100%;
  border: medium none;
  color: gray;
  font-size: 14px;
@@ -44,6 +45,7 @@ h1 {font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "
 #mailchimp input.email { background: #fff }
 #mailchimp input.name { background: #fff}
 #mailchimp input[type="submit"] {
+		width:100%;
  background: blue;
  color: #fff;
  cursor: pointer;
