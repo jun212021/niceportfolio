@@ -17,12 +17,14 @@ h1 {font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "
   font-size: 30px;
   line-height: 20px;
   color:#7e4397;
+	font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 #mailchimp p {
   font-size: 17px;
   line-height: 17px;
   color: #333;
+	font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 #mailchimp input {
@@ -36,6 +38,7 @@ h1 {font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "
  border-radius: 4px;
  -moz-border-radius: 4x;
  -webkit-border-radius: 4px;
+	font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 #mailchimp input.email { background: #fff }
@@ -48,8 +51,10 @@ h1 {font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "
  text-transform: ;
  width: 35%;
  padding: 8px 0;
+	font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 ::-webkit-input-placeholder {
    color: gray;
+	font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
