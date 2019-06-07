@@ -17,7 +17,7 @@ h1 {font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "
   font-size: 30px;
   line-height: 20px;
 	margin-bottom:20px;
-  color:#7e4397;
+  color:#blue;
 	font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
@@ -34,7 +34,7 @@ h1 {font-family: 'SpotMono', "Courier New", Courier, "Lucida Sans Typewriter", "
  font-size: 14px;
  border: 1px solid #dfdfdf;
  margin-bottom: 10px;
- padding: 8px 10px;
+ padding:20px;
  border-radius: 4px;
  -moz-border-radius: 4x;
  -webkit-border-radius: 4px;
