@@ -1,6 +1,14 @@
 .logo {max-width:100%;}
 
-.submit { -webkit-appearance: none; }
+textarea,
+input.text,
+input[type="text"],
+input[type="button"],
+input[type="submit"],
+.input-checkbox {
+-webkit-appearance: none;
+border-radius: 0;
+}
 
 @font-face {
 	font-family: 'GTWalsheim';
