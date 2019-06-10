@@ -87,21 +87,7 @@ h5 {
 	max-width: 720px;
 	margin: auto;
 }
-.grad-text {
-	background: #C6FFDD;
-	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	font: {
-		size: 20vw;
-		family: $font;
-	}
-	;
-}
+
 ::selection {
 	background-color: yellow;
 	color: black;
@@ -146,6 +132,7 @@ h1 {
 }
 #mailchump input.email:focus {}
 #mailchimp input.email {
+	max-width:90%;
 	font-family: 'GTWalsheim';
 	background: #fff;
 	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.09), 0 6px 6px rgba(0, 0, 0, 0.09);
@@ -155,7 +142,7 @@ h1 {
 	background: #fff
 }
 #mailchimp input[type="submit"] {
-	max-width: 100%;
+	max-width: 90%;
 	background: blue;
 	color: #fff;
 	font-family: 'GTWalsheim';
