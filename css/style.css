@@ -1,5 +1,7 @@
 .logo {max-width:100%;}
 
+.submit { -webkit-appearance: none; }
+
 @font-face {
 	font-family: 'GTWalsheim';
 	src: url('GTWalsheim.eot?#iefix') format('embedded-opentype'), url('GTWalsheim.woff') format('woff'), url('GTWalsheim.ttf') format('truetype'), url('GTWalsheim.svg#GTWalsheim') format('svg');
