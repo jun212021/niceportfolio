@@ -129,6 +129,7 @@ h1 {
 	margin-bottom: 10px;
 	padding: 20px;
 	font-family: 'GTWalsheim';
+	border: 1px solid #d2d2d2;
 }
 #mailchump input.email:focus {}
 #mailchimp input.email {
