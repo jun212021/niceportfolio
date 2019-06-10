@@ -1,0 +1,238 @@
+/* Pen-specific styles */
+
+
+@font-face {
+  font-family: 'GTWalsheim';
+  src: url('GTWalsheim.eot?#iefix') format('embedded-opentype'),  url('GTWalsheim.woff') format('woff'), url('GTWalsheim.ttf')  format('truetype'), url('GTWalsheim.svg#GTWalsheim') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 1.65rem;
+  font-family: sans-serif;
+  line-height: 150%;
+  font-family: 'GTWalsheim';
+  font-weight: 100;
+  margin:0;
+  color: black;
+
+}
+
+
+
+a {
+  color: black;
+  text-decoration: none;
+   border-bottom: 1px solid transparent;
+  -o-transition: all .3s ease;
+  -ms-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: 1!important;
+}
+
+a:hover {
+  border-bottom: 1px solid black;
+}
+
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: black;
+}
+
+
+ @keyframes colorchange
+    {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      75%  {background-color: green;}
+      100% {background-color: red;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background-color: red;}
+      25%  {background-color: yellow;}
+      50%  {background-color: blue;}
+      75%  {background-color: green;}
+      100% {background-color: red;}
+    }
+
+
+    .lowkey {opacity: .55;font-size: %;}
+
+
+#mailchimp {margin-top: 48px;margin-bottom: 48px;  font-family: 'GTWalsheim';}
+
+p {    font-weight: 100;
+    font-size: 1.2rem;
+    line-height: 150%;
+    
+    max-width:80%;margin: auto;}
+
+#branding {margin:auto;width: 48px;margin-top: 48px;margin-bottom: 24px;}
+
+h2 {  font-size: 2.1rem;
+  line-height: 125%;
+  font-family: 'GTWalsheim';
+  font-weight: 100;
+  margin:0;
+  color: black;
+  margin-bottom: 40px;
+
+}
+
+h5 {font-weight: 100;font-size: 1rem;}
+
+#content {max-width: 720px;
+margin:auto;}
+
+
+.grad-text {
+  background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font: {
+    size: 20vw;
+    family: $font;
+  };
+}
+
+::selection {
+    background-color: yellow;
+    color: black;
+}
+
+section {
+  color: black;
+  text-align: center;
+}
+
+div {
+  height: 100%;
+}
+
+article {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 4.75rem;
+  margin: 0 0 0.75rem 0;
+  font-family: Cooper Blk BT;
+  line-height: 90%;
+  color: blue;
+}
+
+.mobile-header {background-color: blue;padding: 0!important;top:0;margin:0!important;width: 100%;display: none;max-height: 140px;}
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+
+.left-half {
+  background-color: blue;
+  position: absolute;
+  left: 0px;
+  width: 40%;
+  /* background-image: url("bg.jpeg");*/
+}
+
+.right-half {
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  width: 60%;
+  color: black;
+}
+
+
+
+#mailchimp input {
+  width:100%;
+ border: medium none;
+ color: gray;
+ font-size: 18px;
+ margin-bottom: 10px;
+ padding:20px;  font-family: 'GTWalsheim';
+
+}
+
+#mailchump input.email:focus { 
+
+  
+}
+
+
+#mailchimp input.email {   font-family: 'GTWalsheim';background: #fff; box-shadow: 0 10px 20px rgba(0,0,0,0.09), 0 6px 6px rgba(0,0,0,0.09);}
+#mailchimp input.name {   font-family: 'GTWalsheim';background: #fff}
+#mailchimp input[type="submit"] {
+    max-width:100%;
+ background: blue;
+ color: #fff;
+  font-family: 'GTWalsheim';
+ cursor: pointer;
+ font-size: 18px;
+ text-transform: ;
+ padding: 8px 0;
+    font-weight: 400;
+    padding: 20px;
+
+}
+
+::-webkit-input-placeholder {
+   color: gray;  font-family: 'GTWalsheim';
+}
+
+.logo {max-width: 100%;}
+
+.marquee {
+  display: block;
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+
+
+@media (max-width: 960px) {
+
+#content {max-width: 90%;
+margin:auto;}
+
+.mobile-header {display: block;}
+.left-half {
+  display: none;
+}
+
+body {font-size: 1.1rem;}
+
+
+h2 {font-size: 1.8rem;}
+
+body {  font-size: 1.1rem;}
+
+.right-half {width:100%;  }
+
+}
