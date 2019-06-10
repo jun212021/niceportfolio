@@ -167,6 +167,12 @@ h1 {
 		max-width: 90%;
 		margin: auto;
 	}
+	
+	p {
+	
+	max-width: 100%;
+	
+}
 	.mobile-header {
 		display: block;
 	}
