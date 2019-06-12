@@ -199,6 +199,8 @@ p {
 #branding {
 	margin: auto;
 	margin-top: 48px;
+	width:60px;
+	margin-bottom:24px;
 }
 h2 {
 	font-size: 2.1rem;
