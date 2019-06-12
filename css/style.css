@@ -1,7 +1,7 @@
 #mailchimp input.email {color:black;}
 
 
-@keyframes float {
+@keyframes float { //*
 	0% {
 		box-shadow: 0 20px 20px rgba(0,0,0,.16);
 		transform: translatey(0px);
@@ -13,7 +13,7 @@
 	100% {
 		box-shadow: 0 20px 20px rgba(0,0,0,.16);
 		transform: translatey(0px);
-	}
+	}//*/
 }
 
 .logo {max-width:100%;transform: translatey(0px);
