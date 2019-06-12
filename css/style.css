@@ -184,7 +184,6 @@ p {
 }
 #branding {
 	margin: auto;
-	width: 200px;
 	margin-top: 48px;
 	margin-bottom: 24px;
 }
@@ -310,3 +309,5 @@ h1 {
 	body {
 		font-size: 1.1rem;
 	}
+	
+	h4 {font-size:1.9rem;}
