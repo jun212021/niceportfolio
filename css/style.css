@@ -1,5 +1,11 @@
 #mailchimp input.email {color:black;}
 
+.fade-in-1::selection {background:navajowhite;color: blue;}
+.fade-in-2::selection {background:navajowhite;color: blue;}
+.fade-in-3::selection {background:navajowhite;color: blue;}
+.fade-in-4::selection {background:navajowhite;color: blue;}
+.fade-in-5::selection {background:navajowhite;color: blue;}
+
 
 @keyframes float { //*
 	0% {
