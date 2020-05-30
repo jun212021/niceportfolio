@@ -22,10 +22,6 @@ body.light-mode {
 overflow: hidden;
 max-height: 100%;
  background-color: white;
-  display: -webkit-flex;
-display: flex;
--webkit-justify-content: space-between;
-justify-content: space-between;
 
 }
 
@@ -41,10 +37,7 @@ body.dark-mode {
   min-height: 100vh;
 overflow: hidden;
 max-height: 100%;  background-color: #3a3939;
-display: -webkit-flex;
-display: flex;
--webkit-justify-content: space-between;
-justify-content: space-between;
+
 
 }
 
