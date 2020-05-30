@@ -90,5 +90,5 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
 }
 
 @media all and (max-width: 740px) {
-  body {font-size: 1.4rem;} #getportfolio{margin-top: -25%;}
+  body.dark-mode {font-size: 1.2rem;} body.light-mode {font-size: 1.2rem;} #getportfolio{margin-top: -25%;}
 }
