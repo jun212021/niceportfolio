@@ -62,13 +62,7 @@ a:active {
 #credit {bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 26px; color:lightcoral;}
   #submit {bottom: 0;right: 0;position: fixed;padding: 16px;font-size: 26px;color:orange;}
   #twitter {top: 0;right: 0;position: fixed;padding: 16px;font-size: 26px;color: mediumseagreen;}
-  #spacebar {position: fixed;
-    bottom: 0;
-    padding-bottom: 16px;
-    font-size: 20px;
-    color: gray;
-    text-decoration: none;
-}
+  
 
   a.sitename {color: skyblue;cursor: cell!important;}
     a.sitename:hover {color:#1a99d6;}
@@ -90,5 +84,8 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
 }
 
 @media all and (max-width: 740px) {
-  body.dark-mode {font-size: 1.4rem;} body.light-mode {font-size: 1.2rem;} #getportfolio{margin-top: -25%;}
+  body.dark-mode {font-size: 1.4rem;} body.light-mode {font-size: 1.2rem;} #getportfolio{margin-top: -25%;} #sitename {font-size:21px;}
+   #credit {font-size:21px;}  #twitter {font-size:21px;}  #submit {font-size:21px;}
+  
+  
 }
