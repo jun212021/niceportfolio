@@ -61,7 +61,7 @@ a:active {
 #sitename {top: 0;left: 0;position: fixed;padding: 16px;font-size: 26px;color: skyblue;}
 #credit {bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 26px; color:lightcoral;}
   #submit {bottom: 0;right: 0;position: fixed;padding: 16px;font-size: 26px;color:orange;}
-  #twitter {top: 0;right: 0;position: fixed;padding: 16px;font-size: 26px;color: mediumseagreen;}
+  #social {top: 0;right: 0;position: fixed;padding: 16px;font-size: 26px;color: mediumseagreen;}
   
 
   a.sitename {color: skyblue;cursor: cell!important;}
@@ -71,8 +71,8 @@ a:active {
   a.credit:hover {color: #ff588d;}
   a.submit {color:orange;}
   a.submit:hover {color: #ff4d01;}
-  a.twitter {color:mediumseagreen;}
-  a.twitter:hover {color:green;}
+  a.social {color:mediumseagreen;}
+  a.social:hover {color:green;}
 
 
 
@@ -85,7 +85,7 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
 
 @media all and (max-width: 740px) {
   body.dark-mode {font-size: 1.4rem;} body.light-mode {font-size: 1.2rem;} #getportfolio{margin-top: -25%;} #sitename {font-size:21px;}
-   #credit {font-size:21px;}  #twitter {font-size:21px;}  #submit {font-size:21px;}
+   #credit {font-size:21px;}  #social {font-size:21px;}  #submit {font-size:21px;}
   
   
 }
