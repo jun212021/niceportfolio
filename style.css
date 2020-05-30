@@ -1,0 +1,94 @@
+
+
+* {
+  box-sizing: border-box;
+  &::before, &::after {
+    box-sizing: border-box;
+  }
+}
+
+  
+
+body.light-mode {
+ font-family: Arial, "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+   color:white;
+  font-size: 2rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+overflow: hidden;
+max-height: 100%;
+ background-color: white;
+
+}
+
+body.dark-mode {
+ font-family: Arial, "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif; 
+   color:white;
+  font-size: 2rem;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+overflow: hidden;
+max-height: 100%;  background-color: #3a3939;
+
+
+}
+
+a {
+    color: black;
+    border: 5px outset white;
+    background: #eee;
+ padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    text-decoration: none;transition: background 0.5s ease;
+}
+a:hover {
+    background: #e6e3e3;transition: background 0.5s ease;
+}
+a:active {
+    border-style: inset;
+}
+
+#sitename {top: 0;left: 0;position: fixed;padding: 16px;font-size: 26px;color: skyblue;}
+#credit {bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 26px; color:lightcoral;}
+  #submit {bottom: 0;right: 0;position: fixed;padding: 16px;font-size: 26px;color:orange;}
+  #twitter {top: 0;right: 0;position: fixed;padding: 16px;font-size: 26px;color: mediumseagreen;}
+  #spacebar {position: fixed;
+    bottom: 0;
+    padding-bottom: 16px;
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
+}
+
+  a.sitename {color: skyblue;cursor: cell!important;}
+    a.sitename:hover {color:#1a99d6;}
+
+  a.credit {color:lightcoral;}
+  a.credit:hover {color: #ff588d;}
+  a.submit {color:orange;}
+  a.submit:hover {color: #ff4d01;}
+  a.twitter {color:mediumseagreen;}
+  a.twitter:hover {color:green;}
+
+
+
+a.links  {cursor: pointer;
+    padding: 0px; border: 0px;background: none;
+    text-decoration: underline;transition: color 0.5s ease;}
+
+a.links:hover{opacity: 1;  transition: color 0.5s ease;
+}
+
+@media all and (max-width: 740px) {
+  body {font-size: 1.4rem;} #getportfolio{margin-top: -25%;}
+}

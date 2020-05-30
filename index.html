@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-6881481-17">
+  </script>
+  <script>
+   window.dataLayer = window.dataLayer || [];
+   function gtag(){dataLayer.push(arguments);}
+   gtag('js', new Date());
+
+   gtag('config', 'UA-6881481-17');
+  </script>
+
+  <title>Nice Portfolio - Portfolio inspiration at the push of a button</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta content="Design portfolio inspiration at the push of a button" name="description">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<script type="text/javascript" src="folios.js"></script>
+
+</head>
+<body id="body" class="light-mode"> 
+
+  <a id="getportfolio" href="javascript:openSite()">Push button for portfolio :-)</a><br>
+
+
+
+   <div id="sitename">
+
+       <a class="links sitename" name="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Nice Portfolio</a>
+
+</div>
+      <div id="credit"><a class="links credit" href="https://twitter.com/@kimw" target="blank">Made by @kimw</a></div>
+
+      <div id="twitter"><a class="links twitter" href="https://twitter.com/@niceportfolio" target="blank">Twitter</a></div>
+            <div id="submit"><a class="links submit" href="https://forms.gle/An6hbH9TDxuW6yjJ6" target="blank">Submit folio</a></div>
+
+  <script type="text/javascript">window.onkeydown = function(event){
+    if(event.keyCode === 32) {
+        event.preventDefault();
+        document.querySelector('a').click(); //This will trigger a click on the first <a> element.
+    }
+};</script>
+
+<script type="text/javascript">function toggleDarkLight() {
+  var body = document.getElementById("body");
+  var currentClass = body.className;
+  body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
+}</script>
+  
+</body>
+</html>
