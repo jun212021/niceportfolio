@@ -32,6 +32,11 @@
     "https://www.calebbarclay.com/",
     "http://nathanyoung.org/",
     "https://victor.work/",
+    "https://www.lizvwells.com/",
+    "https://biron.io/",
+    "http://actualidea.com/,
+    "http://www.colinkeany.com/,
+    "https://soulwire.co.uk/",
                "https://karalevich.com"]
 
             var openSite = function() {
