@@ -26,7 +26,7 @@
     "http://davidpolonia.com/",
     "https://katiforner.com/",
     "https://niklasrosen.se/",
-    "http://matthieuteyssandier.com/"
+    "http://matthieuteyssandier.com/",
     "https://www.angel-estrada.com/",
     "https://angelamilosevic.com/",
     "https://www.calebbarclay.com/",
