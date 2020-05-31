@@ -49,14 +49,14 @@
 #open,
 #close {
   cursor: pointer;
-bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 20px; color:lightcoral;
+bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 26px; color:lightcoral;
 text-decoration: underline;transition: color 0.5s ease;
 
 
 
 }
 
-#close {background-color: white;filter:blur(0px);backdrop-filter: blur(2px);backdrop-filter: opacity(20%);}
+#close {background-color: white;}
 
 .menu-label {
   margin-right: 0.5em;
