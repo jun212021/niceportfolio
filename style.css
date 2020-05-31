@@ -19,6 +19,7 @@
 }
 
 #nav {
+  font-size:3rem;
   display: none;
   z-index: 999; 
   position: fixed;
