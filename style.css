@@ -9,6 +9,7 @@
 
 .toggle {
   opacity: 0.0;
+  transition: opacity 0.5s ease;
 }
 
 .updatedOn {
@@ -16,8 +17,8 @@
 }
 
 
-a.folioLink {padding: 0px;background: white;border: none;text-decoration: underline;}
-a.folioLink:hover {color:black;background:white;padding:0px;border:none;}
+a.folioLink {padding: 0px;background: white;border: none;text-decoration: underline;opacity:1;}
+a.folioLink:hover {color:black;background:white;padding:0px;border:none;opacity:1;}
 
 .container {
   position: relative; // needed to position absolute #nav 
