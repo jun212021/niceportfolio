@@ -157,10 +157,10 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
 
 @media all and (max-width: 740px) {
   
-  #sitename {font-size: 24px;}
-#credit {font-size: 24px;}
-  #submit {font-size: 24px;}
-  #social {font-size: 24px;}
+  #sitename {font-size: 26px;}
+#credit {font-size: 26px;}
+  #submit {font-size: 26px;}
+  #social {font-size: 26px;}
   
   #nav {font-size:2rem;}
   
@@ -180,7 +180,7 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
 }
 #close {
   width: 100%;
-bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 32px; color:lightcoral;
+bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 26px; color:lightcoral;
 text-decoration: underline;transition: color 0.5s ease;
 background-color:rgba(255, 255, 255, 0.9)
 
