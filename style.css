@@ -164,6 +164,12 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
 
 @media all and (max-width: 740px) {
   
+  
+.toggle {
+  opacity: 1;
+  transition: all 0.5s ease;
+}
+  
   #sitename {font-size: 26px;}
 #credit {font-size: 26px;}
   #submit {font-size: 26px;}
