@@ -37,7 +37,23 @@
     "http://actualidea.com/",
     "http://www.colinkeany.com/",
     "https://soulwire.co.uk/",
-               "https://karalevich.com"]
+               "https://karalevich.com",
+    "https://taragraphy.com/",
+"http://rumz.org/",
+"https://jeanlou.co/",
+"https://jonasf.work/",
+"http://dmcg.co/",
+"https://nickytes.la/",
+"https://heckhouse.com/",
+"https://maryloufaure.com/",
+"https://florianmarkl.com/en/",
+"http://florentbiffi.com/",
+"https://undersight.co/",
+"https://samucoronado.com/",
+"https://thomaswilliams.co/",
+"https://simon.abranowicz.com/",
+"https://maximerimbert.fyi/"
+  ]
 
             var openSite = function() {
                // get a random number between 0 and the number of links
