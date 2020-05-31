@@ -99,14 +99,9 @@ document.getElementById("close").addEventListener("click", MenuOff, true);    </
 
 
 <script type="text/javascript">
-    $('folioLink').mouseover(function () {
-    $('folioLink').not($(this)).addClass('hover');
-});
-
-$('folioLink').mouseout(function () {
-    $('folioLink').not($(this)).removeClass('hover');
-});
-
+$('a.folioLink').hover(function(){
+ $('a.folioLink').not(this).toggleClass('toggle');
+})
         </script>
   
 </body>
