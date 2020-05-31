@@ -12,7 +12,8 @@
 }
 
 
-.folioLink {padding: 0px;background-color: white;border: none;text-decoration: underline;}
+.folioLink {padding: 0px;background-color: white;border: none;text-decoration: underline;color 0.5s ease;}
+.folioLink:hover {color:black;background-color:white;padding:0px;border:none;color 0.5s ease;}
 
 .container {
   position: relative; // needed to position absolute #nav 
