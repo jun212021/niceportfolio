@@ -151,6 +151,8 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
 
 @media all and (max-width: 740px) {
   
+  #nav {font-size:2rem;}
+  
   body.light-mode {
     font-size: 1.4rem;
   }
