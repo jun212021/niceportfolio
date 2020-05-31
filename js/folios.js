@@ -53,8 +53,8 @@
 "https://samucoronado.com/",
 "https://thomaswilliams.co/",
 "https://simon.abranowicz.com/",
-"https://maximerimbert.fyi/"
-    "https://www.janieceallison.design/"
+"https://maximerimbert.fyi/",
+"https://www.janieceallison.design/"
   ]
 
             var openSite = function() {
