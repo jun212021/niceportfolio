@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
@@ -20,8 +20,8 @@
 <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="js/folios.js"></script>
-<script type="text/javascript" src="js/colours.js"></script>
+<script src="js/folios.js"></script>
+<script src="js/colours.js"></script>
     <script>
   $(function(){
     var includes = $('[data-include]');
@@ -67,21 +67,21 @@
       <div id="social"><a class="links social" href="https://twitter.com/@niceportfolio" target="_blank">Twitter</a> / <a class="links social" href="https://www.instagram.com/niceportfolio/" target="_blank">IG</a></div>
             <div id="submit"><a class="links submit" href="https://forms.gle/An6hbH9TDxuW6yjJ6" target="_blank">Submit folio</a></div>
 
-  <script type="text/javascript">window.onkeydown = function(event){
+  <script>window.onkeydown = function(event){
     if(event.keyCode === 32) {
         event.preventDefault();
         document.querySelector('a').click(); //This will trigger a click on the first <a> element.
     }
 };</script>
 
-<script type="text/javascript">function toggleDarkLight() {
+<script>function toggleDarkLight() {
   var body = document.getElementById("body");
   var currentClass = body.className;
   body.className = currentClass == "dark-mode" ? "light-mode" : "dark-mode";
 }</script>
     
     
-<script type="text/javascript">// functions
+<script>// functions
 
 function MenuOn() {
     document.getElementById("nav").classList.add("menu-open");
