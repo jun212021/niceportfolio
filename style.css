@@ -28,7 +28,7 @@ a.folioLink:hover {color:black;background:#3a3939;padding:0px;border:none;transi
   color:black;
 }
 
-#nav {text-align:right;
+#nav {text-align:left;
   font-size:3rem;
   display: none;
   z-index: 999; 
