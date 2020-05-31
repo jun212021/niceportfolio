@@ -31,6 +31,10 @@
     });
   });
 </script>
+    
+    <script>
+        $.ajaxPrefilter(function( options, original_Options, jqXHR ) { options.async = true; });
+    </script>
 </head>
 <body id="body" class="light-mode"> 
 
