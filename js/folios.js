@@ -17,6 +17,21 @@
                "https://timroussilhe.com/",
                "https://stanleychen.info/",
                "https://studiofrank.co",
+    "https://christianmezofi.com/",
+    "https://narrowdesign.com/",
+    "https://justified.studio/",
+    "https://kitkatpecson.com/",
+    "https://jeongsteph.design/",
+    "https://www.gabrielcontassot.com/",
+    "http://davidpolonia.com/",
+    "https://katiforner.com/",
+    "https://niklasrosen.se/",
+    "http://matthieuteyssandier.com/"
+    "https://www.angel-estrada.com/",
+    "https://angelamilosevic.com/",
+    "https://www.calebbarclay.com/",
+    "http://nathanyoung.org/",
+    "https://victor.work/",
                "https://karalevich.com"]
 
             var openSite = function() {
