@@ -4,6 +4,7 @@
                "https://michael.wang/",
                "https://liebermannkiepe.de/en",
                "https://sspeier.com/",
+               "http://www.timothyachumba.com/",
                "https://adamho.com/",
                "https://carolpychan.com/index.html",
                "https://coryetzkorn.com/",
