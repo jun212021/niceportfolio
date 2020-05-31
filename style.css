@@ -157,7 +157,7 @@ a.links:hover{opacity: 1;  transition: color 0.5s ease;
   body.dark-mode {
     font-size: 1.4rem;
   }
-  body {font-size: 1.2rem;} #getportfolio{margin-top: -25%;}
+  #getportfolio{margin-top: -25%;}
   #nav {
  
   overflow-y: scroll;
