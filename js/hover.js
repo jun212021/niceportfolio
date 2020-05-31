@@ -1,3 +1,7 @@
-$('a.folioLink').hover(function(){
- $('a.folioLink').not(this).toggleClass('toggle');
-})
+$('folioLink').mouseover(function () {
+    $('folioLink').not($(this)).addClass('hover');
+});
+
+$('folioLink').mouseout(function () {
+    $('folioLink').not($(this)).removeClass('hover');
+});
