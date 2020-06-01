@@ -17,9 +17,9 @@
 }
 
 
-a.folioLink {padding: 0px;background: white;border: none;text-decoration: underline;  transition: all 0.5s ease;
+a.folioLink {padding-top: 0px;padding-left:0px; padding-right: 12px; padding-bottom:0px; background: white;border: none;text-decoration: underline;  transition: all 0.5s ease;
 }
-a.folioLink:hover {color:black;background:white;padding:0px;border:none;opacity:1;  transition: all 0.5s ease;
+a.folioLink:hover {color:black;background:white;border:none;opacity:1;  transition: all 0.5s ease;
 }
 
 .container {
