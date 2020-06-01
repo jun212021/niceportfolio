@@ -170,26 +170,10 @@ a:active {
     border-style: inset;
 }
 
-#sitename {top: 0;left: 0;position: fixed;padding: 16px;font-size: 32px;color: skyblue;    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;}
-#credit {bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 32px; color:lightcoral;    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;}
-  #submit {bottom: 0;right: 0;position: fixed;padding: 16px;font-size: 32px;color:orange;    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;}
-  #social {top: 0;right: 0;position: fixed;padding: 16px;font-size: 32px;color: mediumseagreen;    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;}
+#sitename {top: 0;left: 0;position: fixed;padding: 16px;font-size: 32px;color: skyblue;   }
+#credit {bottom: 0;left: 0;position: fixed;padding: 16px;font-size: 32px; color:lightcoral;}
+  #submit {bottom: 0;right: 0;position: fixed;padding: 16px;font-size: 32px;color:orange;}
+  #social {top: 0;right: 0;position: fixed;padding: 16px;font-size: 32px;color: mediumseagreen;}
   
 
   a.sitename {color: skyblue;cursor: cell!important;}
