@@ -79,4 +79,9 @@ $('a.folioLink').hover(function(){
         </script>
 
      
+  <script> var links = $("#folioLinks");
+var html = links.children().get().sort(() => 0.5 - Math.random()).map(e => e.outerHTML).join(' ');
+
+links.html(html);
+  </script>
  
