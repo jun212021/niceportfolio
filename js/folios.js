@@ -13,6 +13,7 @@
                "https://sharypin.cool/",
                "https://zefs.website/",
                "https://kyledecker.me",
+    "https://www.futurefabric.co/",
                "https://taliacotton.com/work",
                "https://twnsnd.co",
                "http://erichu.info/",
