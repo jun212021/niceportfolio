@@ -6,6 +6,7 @@
                "https://michael.wang/",
                "https://liebermannkiepe.de/en",
                "https://sspeier.com/",
+    "https://day-and.co/",
                "http://www.timothyachumba.com/",
                "https://adamho.com/",
                "https://carolpychan.com/index.html",
