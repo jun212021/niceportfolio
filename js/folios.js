@@ -25,6 +25,7 @@
     "https://christianmezofi.com/",
     "https://narrowdesign.com/",
     "https://justified.studio/",
+    "https://www.mrkylemac.com/",
     "https://kitkatpecson.com/",
     "https://jeongsteph.design/",
     "https://www.gabrielcontassot.com/",
