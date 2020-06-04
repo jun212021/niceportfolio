@@ -6,9 +6,9 @@
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
-<glyph glyph-name="folderopen" unicode="&#xe800;" d="M313 642v-11h375 62v-62-63h188 62v-62-73h-62v73h-188-62-375v-73h-63v73 62h63 375v63h-375-63v62 11h-125v-73h-62v-448h62v-63h625v-62h-625-62v62h-63v584h52v62h11 62 125 63v-62z m500-521v-63h-63v63h63z m62 125v-125h-62v125h62z m0 0h63v125h-63v-125z m-687 0v-125h-63v125h63z m0 0h62v125h-62v-125z" horiz-adv-x="1000" />
+<glyph glyph-name="folderopen" unicode="&#xe800;" d="M63 715h250v-78h437v-136h250v-120h-62v58h-625v-68h-63v130h438v73h-438v78h-125v-78h-62v-453h62v-63h625v-62h-687v62h-63v579h63v78z m812-459v125h63v-125h-63z m-62-125v125h62v-125h-62z m-63-73v73h63v-73h-63z m-625 63v125h63v-125h-63z m63 125v125h62v-125h-62z" horiz-adv-x="1000" />
 
-<glyph glyph-name="folderclosed" unicode="&#xe801;" d="M313 631v11 62h-63-125-62-11v-62h-52v-584h63v-62h62 625v62h63v386 62h-63v63 62h-62-375z m-188-510v-63h625v386h-62-500v-73-125-125h-63z m0 250v-125-125h-62v448h62v73h125v-11-62h63 375v-63h-563v-62-73z" horiz-adv-x="1000" />
+<glyph glyph-name="folderclosed" unicode="&#xe801;" d="M63 715h250v-78h437v-136h63v-443h-63v381h-562v-318h-63v380h563v73h-438v78h-125v-78h-62v-453h62v-63h625v-62h-687v62h-63v579h63v78z" horiz-adv-x="1000" />
 </font>
 </defs>
 </svg>
