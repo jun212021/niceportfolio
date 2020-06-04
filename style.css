@@ -12,10 +12,12 @@
 *:focus > .fa-hover-hidden
 {
   display: none;
+  transition: all 0.5s ease;
 }
 *:focus > .fa-hover-show,
 *:hover > .fa-hover-show {
   display: inline-block;
+   transition: all 0.5s ease;
 }
 
 @keyframes fadein {
