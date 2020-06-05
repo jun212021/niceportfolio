@@ -6,6 +6,11 @@
 <link rel="stylesheet" type="text/css" href="../style.css">
 <script src="../js/folios.js"></script>
 <script src="../js/colours.js"></script>
+  <script>
+$('a.folioLink').hover(function(){
+ $('a.folioLink').not(this).toggleClass('toggle');
+})
+        </script>
 </head>   
 
   
@@ -74,10 +79,10 @@
 <a class="folioLink" href="https://simon.abranowicz.com/" target="_blank">Simon Abranowicz</a> 
 <a class="folioLink" href="https://maximerimbert.fyi/" target="_blank">Maxime Rimbert</a> 
      </span>
+
+
 <script>
-$('a.folioLink').hover(function(){
- $('a.folioLink').not(this).toggleClass('toggle');
-})
-        </script>
+var links = $("#folioLinks");
+var html = links.children().get().sort(() => 0.5 - Math.random()).map(e => e.outerHTML).join(' ');
 
-
+links.html(html);</script>
