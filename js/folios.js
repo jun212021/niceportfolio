@@ -12,6 +12,7 @@
                "https://carolpychan.com/index.html",
                "https://coryetzkorn.com/",
                "https://sharypin.cool/",
+    "https://www.almond.studio/",
                "https://zefs.website/",
                "https://kyledecker.me",
     "https://www.futurefabric.co/",
