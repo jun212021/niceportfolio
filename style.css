@@ -1,4 +1,4 @@
-.dev-hidden {display:none;}
+.dev-hidden {display:none!important;}
 
 * {
   box-sizing: border-box;
