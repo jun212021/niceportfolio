@@ -10,6 +10,7 @@
     "https://day-and.co/",
                "http://www.timothyachumba.com/",
                "https://adamho.com/",
+    "https://www.jingdezign.com/",
                "https://carolpychan.com/index.html",
                "https://coryetzkorn.com/",
                "https://sharypin.cool/",
