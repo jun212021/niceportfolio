@@ -14,6 +14,7 @@
                "https://coryetzkorn.com/",
                "https://sharypin.cool/",
     "https://www.almond.studio/",
+    "https://jennywen.ca/",
                "https://zefs.website/",
                "https://kyledecker.me",
     "https://www.futurefabric.co/",
