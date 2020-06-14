@@ -4,6 +4,7 @@
                "https://nathan.tokyo/",
                "https://neal.fun/",
                "https://michael.wang/",
+    "https://www.lenoraporter.com/",
                "https://liebermannkiepe.de/en",
                "https://sspeier.com/",
     "https://day-and.co/",
