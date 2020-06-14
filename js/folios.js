@@ -63,13 +63,11 @@
 "https://thomaswilliams.co/",
 "https://simon.abranowicz.com/",
 "https://maximerimbert.fyi/",
-"https://www.janieceallison.design"
+"https://www.janieceallison.design",
     "https://dow-smith.com/",
     "https://lukashaider.com/",
     "https://ianwillia.ms/",
     "https://karolgadzala.de/"
-    
-    
   ]
 
             var openSite = function() {
