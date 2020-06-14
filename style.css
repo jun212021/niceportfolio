@@ -4,11 +4,13 @@ a.creditLink { color: black;
     border: 0px;
     background: none;
  padding:0px;
-  text-decoration: none;
-transition: all 0.5s ease; }
+  text-decoration: underline;
+transition: all 0.5s ease;
+cursor: ne-resize;}
 
 a.creditLink:hover {
-  text-decoration: underline;transition: all 0.5s ease; }
+  text-decoration: underline;transition: all 0.5s ease;
+cursor: ne-resize;}
 
 a {
     color: black;
