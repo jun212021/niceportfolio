@@ -246,6 +246,7 @@ body.dark-mode {
 
 @media all and (max-width: 740px) {
   
+    #getportfolio{margin-top: -31%;}
   
 .toggle {
   opacity: 1;
