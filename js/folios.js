@@ -1,6 +1,7 @@
   var links = [
     "https://ezekielaquino.com/",
     "https://phuongnguyen.co/",
+    "http://work.jsoat.us/",
                "https://nathan.tokyo/",
                "https://neal.fun/",
     "https://www.bryntaylor.co.uk/",
