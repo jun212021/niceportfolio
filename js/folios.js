@@ -3,6 +3,7 @@
     "https://phuongnguyen.co/",
                "https://nathan.tokyo/",
                "https://neal.fun/",
+    "https://www.bryntaylor.co.uk/",
                "https://michael.wang/",
     "https://www.lenoraporter.com/",
     "http://williamrichardson.co.uk/",
