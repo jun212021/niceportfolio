@@ -5,6 +5,7 @@
                "https://neal.fun/",
                "https://michael.wang/",
     "https://www.lenoraporter.com/",
+    "http://williamrichardson.co.uk/",
     "https://darrendominiquedavis.com/",
                "https://liebermannkiepe.de/en",
                "https://sspeier.com/",
