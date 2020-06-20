@@ -6,6 +6,7 @@
                "https://nathan.tokyo/",
                "https://neal.fun/",
     "https://www.bryntaylor.co.uk/",
+    "https://nunocoelhosantos.com/",
                "https://michael.wang/",
     "https://www.lenoraporter.com/",
     "http://williamrichardson.co.uk/",
