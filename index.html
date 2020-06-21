@@ -28,7 +28,7 @@
     <link rel="stylesheet" type="text/css" href="fonts/icons.css">
 <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script src="js/folios.js"></script>
 <script src="js/colours.js"></script>
     <script>
@@ -44,9 +44,17 @@
     <script>
         $.ajaxPrefilter(function( options, original_Options, jqXHR ) { options.async = true; });
     </script>
+
+   
 </head>
 <body id="body" class="light-mode"> 
+</body>
 
+
+
+
+  <div class="btnContainer">
+    <div class="centered">
   <a id="getportfolio" href="javascript:openSite()">
 
   <span class="fa-hover-hidden">Push button for portfolio</span>
@@ -55,32 +63,80 @@
   <i class="dev-hidden icon-folderopen fa-hover-show"></i>
 </a>
 
+    </div>
+</div>
+
     
  <div class="container">
   <nav id="nav">
     <div id="close">
-      <span class="menu-label">Hide List</span>
+      <span class="menu-label">Close</span>
     </div>
     <div data-include="folios"></div>
 
   </nav>
 
   <div id="open">
-    <span class="menu-label">Show list</span>
+    <span class="menu-label">Directory</span>
     
   </div>
 
 </div>
 
+<div class="container">
+  <nav id="nav_info">
+    <div id="close_info">
+      <span class="menu-label">Close</span>
+    </div>
+
+  
+    <a class="fixTopRight" href="https://forms.gle/An6hbH9TDxuW6yjJ6" target="_blank">Submit a portfolio</a>
+    <div class="wrapInfo">
+    <span>Nice Portfolio is a curated selection of design portfolios with a focus on digital product and web designers. Made by <a class="creditLink" href="https://twitter.com/kimw" target="_blank">@kimw</a>.</span></div>
+
+  </nav>
+
+  <div id="open_info">
+    <span class="menu-label siteName">Nice Portfolio</span>
+    
+  </div>
+
+</div>
+
+
+
+<div class="container">
+  <nav id="nav_r">
+    <div id="close_r">
+      <span class="menu-label">Close</span>
+    </div>
+   
+    <div data-include="tips"></div>
+
+  </nav>
+
+  <div id="open_r">
+    <span class="menu-label"><a class="generator" href="#">Folio Tips</a></span>
+    
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
    <div id="sitename">
 
-       <a class="links sitename" id="dark_light" onclick="toggleDarkLight()" title="Toggle dark/light mode">Nice Portfolio</a>
 
 </div>
      
 
       <div id="social"><a class="links social" href="https://mailchi.mp/8ad0861e1c46/niceportfolio" target="_blank">Newsletter</a></div>
-            <div id="submit"><a class="links submit" href="https://forms.gle/An6hbH9TDxuW6yjJ6" target="_blank">Submit folio</a></div>
+            
 
   <script>window.onkeydown = function(event){
     if(event.keyCode === 32) {
@@ -113,7 +169,44 @@ function MenuOff() {
 document.getElementById("open").addEventListener("click", MenuOn, true);
 document.getElementById("close").addEventListener("click", MenuOff, true);    </script>
 
+<script>// functions
 
-  
+function MenuOn() {
+    document.getElementById("nav_r").classList.add("menu-open");
+    document.getElementById("open_r").classList.add("menu-open");
+}
+
+function MenuOff() {
+    document.getElementById("nav_r").classList.remove("menu-open");
+    document.getElementById("open_r").classList.remove("menu-open");
+}
+
+// event listeners
+
+document.getElementById("open_r").addEventListener("click", MenuOn, true);
+document.getElementById("close_r").addEventListener("click", MenuOff, true);    </script>
+
+<script>// functions
+
+function MenuOn() {
+    document.getElementById("nav_info").classList.add("menu-open");
+    document.getElementById("open_info").classList.add("menu-open");
+}
+
+function MenuOff() {
+    document.getElementById("nav_info").classList.remove("menu-open");
+    document.getElementById("open_info").classList.remove("menu-open");
+}
+
+// event listeners
+
+document.getElementById("open_info").addEventListener("click", MenuOn, true);
+document.getElementById("close_info").addEventListener("click", MenuOff, true);    </script>
+
+
+
+
+
+
 </body>
 </html>
