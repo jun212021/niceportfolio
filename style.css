@@ -519,9 +519,11 @@ a.submit:hover {
 }
 a.social {
   color:mediumseagreen;
+  cursor: ne-resize;
 }
 a.social:hover {
   color:green;
+  cursor: ne-resize;
 }
 a.links {
   cursor: pointer;
