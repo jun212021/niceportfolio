@@ -416,15 +416,15 @@ a.folioLink:hover {
   // only needed when you use a transparent background for #nav
 }
 body {
-  -webkit-animation: fadein 0s;
+  -webkit-animation: fadein 0.6s;
   /* Safari, Chrome and Opera > 12.1 */
-  -moz-animation: fadein 0s;
+  -moz-animation: fadein 0.6s;
   /* Firefox < 16 */
-  -ms-animation: fadein 0s;
+  -ms-animation: fadein 0.6s;
   /* Internet Explorer */
-  -o-animation: fadein 0s;
+  -o-animation: fadein 0.6s;
   /* Opera < 12.1 */
-  animation: fadein 0s;
+  animation: fadein 0.6s;
 }
 body.light-mode {
   font-family: 'Visuelt', Arial, "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
