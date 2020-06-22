@@ -418,7 +418,7 @@ a.folioLink:hover {
   visibility: hidden;
   // only needed when you use a transparent background for #nav
 }
-body {  animation-delay: 0.7s;
+body {  animation-delay: 1.2s;
   -webkit-animation: fadein 1.2s;
   /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 1.2s;
