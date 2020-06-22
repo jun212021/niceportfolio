@@ -2,6 +2,7 @@
     "https://ezekielaquino.com/",
     "https://phuongnguyen.co/",
     "http://work.jsoat.us/",
+    "https://jergarcia.com/",
     "https://pasquale.cool/",
                "https://nathan.tokyo/",
                "https://neal.fun/",
