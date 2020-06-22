@@ -14,6 +14,7 @@
     "https://darrendominiquedavis.com/",
                "https://liebermannkiepe.de/en",
                "https://sspeier.com/",
+    "http://thisisnate.com/",
     "https://day-and.co/",
                "http://www.timothyachumba.com/",
                "https://adamho.com/",
