@@ -54,6 +54,9 @@
   position: fixed;
   font-size:32px;
 }
+
+.siteName {cursor: help;}
+
 a.generator {
   bottom: 0;
   right: 0;
