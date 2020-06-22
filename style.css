@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Visuelt';
+    src: url('Visuelt-Regular.woff2') format('woff2'),
+        url('Visuelt-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 .wrapInfo {
   height: 100%;
   width: 100%;
@@ -417,7 +426,7 @@ body {
   animation: fadein 0s;
 }
 body.light-mode {
-  font-family: Arial, "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+  font-family: 'Visuelt', Arial, "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
   color:white;
   font-size: 2rem;
   line-height: 1.5;
@@ -435,7 +444,7 @@ body.light-mode {
   background-color: white;
 }
 body.dark-mode {
-  font-family: Arial, "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
+  font-family: 'Visuelt', "Helvetica Neue", Helvetica, "Lucida Grande", sans-serif;
   color:white;
   font-size: 2rem;
   line-height: 1.5;
