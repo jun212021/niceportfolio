@@ -1,4 +1,5 @@
   var links = [
+    "http://lynnecarty.info/",
     "https://www.elvin-hu.com/",
     "https://catherinebui.com/",
     "https://ezekielaquino.com/",
