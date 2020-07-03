@@ -121,6 +121,7 @@ a.fixLeft {
 }
 a.fixLeft:hover {
   color: darkolivegreen;
+     background-color: rgba(255, 255, 255, 0.9);
 }
 a#getportfolio {
   padding-top: 24px;
@@ -623,7 +624,8 @@ a.links:hover{
 
  
   a.fixLeft:hover {
-    color: black;
+    color: darkolivegreen;
+       background-color: rgba(255, 255, 255, 0.9);
   }
   .siteCredits {
     padding-bottom: 100px;
