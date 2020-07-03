@@ -115,12 +115,12 @@ a.fixLeft {
   width: 65%;
   text-align:left;
   font-size:32px;
-  color: black;
+  color: olivedrab;
   cursor: help;
     background-color: rgba(255, 255, 255, 0.9);
 }
 a.fixLeft:hover {
-  color: grey;
+  color: darkolivegreen;
 }
 a#getportfolio {
   padding-top: 24px;
