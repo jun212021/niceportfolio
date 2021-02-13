@@ -643,11 +643,17 @@ a.links:hover{
 @media all and (max-width: 740px) {
 
 
+  #portfolios {float: right;margin-left: 40%;   font-size: calc(2em + 1vw);margin-top: 0px!important;}
+
+
+  body {margin-top:0!important;margin-left:8px!important;padding: 0;}
+
+
   .folioThumb {display: inline-block!important;position: relative!important; height: auto;height: calc(1.2em + .75vw)!important;width: auto!important;
 
 
 
-      border-radius: 2px!important;  box-shadow:none!important;border: 1px solid grey;
+      border-radius: 2px!important;  box-shadow:none!important;border: 1px solid #ececec;
   height: auto;
  
   top:4px!important;
