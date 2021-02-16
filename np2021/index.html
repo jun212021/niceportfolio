@@ -29,6 +29,8 @@
 <link href="favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.1/dist/lazyload.min.js"></script>
+
 <script src="js/folios.js"></script>
 <script src="js/colours.js"></script>
     <script>
@@ -67,33 +69,33 @@
 <div id="portfolios">   
 <span id="folioLinks">
   <span class="" style="color: black;">Nice Portfolio</span>
-          <a class="folioLink" href="https://joshuasoehn.com/" target="_blank">Joshua Söhn<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/090_JS.png" alt="folio"></a> 
-        <a class="folioLink" href="https://danielolof.se/" target="_blank">Daniel Källbom<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/089_DK.png" alt="folio"></a> 
+          <a class="folioLink" href="https://joshuasoehn.com/" target="_blank">Joshua Söhn<img class="folioThumb lazy" src="lazy.jpg" data-src="folios/090_JS.png" alt="folio"></a> 
+        <a class="folioLink" href="https://danielolof.se/" target="_blank">Daniel Källbom<img class="folioThumb lazy" src="lazy.jpg" data-src="folios/089_DK.png" alt="folio"></a> 
 
 
 
 
 
-     <a class="folioLink" href="https://www.satupelkonen.com/" target="_blank">Satu Pelkonen<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/088_SP.png" alt="folio"></a> 
-
-
-    
-
-     <a class="folioLink" href="https://jono.fyi/" target="_blank">Jono Brandel<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/087_JB.png" alt="folio"></a> 
-
-
-      <a class="folioLink" href="https://josemeza.info/" target="_blank">José Meza<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/086_JM.png" alt="folio"></a> 
-
+     <a class="folioLink" href="https://www.satupelkonen.com/" target="_blank">Satu Pelkonen<img class="folioThumb lazy" src="lazy.jpg" data-src="folios/088_SP.png" alt="folio"></a> 
 
 
     
 
-    <a class="folioLink" href="https://jasonyuan.design/" target="_blank">Jason Yuan<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/085_JY.png" alt="folio"></a> 
+     <a class="folioLink" href="https://jono.fyi/" target="_blank">Jono Brandel<img class="folioThumb lazy" src="lazy.jpg" data-src="folios/087_JB.png" alt="folio"></a> 
+
+
+      <a class="folioLink" href="https://josemeza.info/" target="_blank">José Meza<img class="folioThumb lazy" src="lazy.jpg" data-src="folios/086_JM.png" alt="folio"></a> 
+
 
 
     
 
-    <a class="folioLink" href="http://jrands.com/" target="_blank">Justin Rands<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/084_JR.png" alt="folio"></a> 
+    <a class="folioLink" href="https://jasonyuan.design/" target="_blank">Jason Yuan<img class="folioThumb lazy" src="lazy.jpg" data-src="folios/085_JY.png" alt="folio"></a> 
+
+
+    
+
+    <a class="folioLink" href="http://jrands.com/" target="_blank">Justin Rands<img class="folioThumb lazy" src="lazy.jpg" data-src="folios/084_JR.png" alt="folio"></a> 
 
 
   
@@ -195,15 +197,7 @@
 
 </div>
 
- <script>
-[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
-  img.setAttribute('src', img.getAttribute('data-src'));
-  img.onload = function() {
-    img.removeAttribute('data-src');
-  };
-});
 
-</script>
 
    
              <script>
