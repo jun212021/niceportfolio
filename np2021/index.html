@@ -67,7 +67,7 @@
 <div id="portfolios">   
 <span id="folioLinks">
   <span class="" style="color: black;">Nice Portfolio</span>
-          <a class="folioLink" href="https://joshuasoehn.com/" target="_blank">Joshua Söhn<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/079_EH.png" alt="folio"></a> 
+          <a class="folioLink" href="https://joshuasoehn.com/" target="_blank">Joshua Söhn<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/090_JS.png" alt="folio"></a> 
         <a class="folioLink" href="https://danielolof.se/" target="_blank">Daniel Källbom<img class="folioThumb lazy" src="placeholder.jpg" data-src="folios/089_DK.png" alt="folio"></a> 
 
 
@@ -195,10 +195,15 @@
 
 </div>
 
+ <script>
+[].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
+  img.setAttribute('src', img.getAttribute('data-src'));
+  img.onload = function() {
+    img.removeAttribute('data-src');
+  };
+});
 
-
-
-
+</script>
 
    
              <script>
